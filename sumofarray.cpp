@@ -17,7 +17,7 @@ int sum(int arr[], int n)
 	return sum;
 }
 
-// Driver code
+
 int main()
 {
 	int arr[] = {12, 3, 4, 15};
