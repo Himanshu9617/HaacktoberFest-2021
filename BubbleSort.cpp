@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 void bubbleSort(int a[],int n){
     int k = 0;
     int no_swap = 0;
