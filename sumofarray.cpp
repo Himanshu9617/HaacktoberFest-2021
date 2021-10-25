@@ -20,10 +20,13 @@ int sum(int arr[], int n)
 // Driver code
 int main()
 {
-	int arr[] = {12, 3, 4, 15};
-	int n = sizeof(arr) / sizeof(arr[0]);
+	int n;
+	cin>>n;
+	int arr[n];
+	for(int i =0;i<n;i++){
+		cin>>arr[i];
+	}
 	cout << "Sum of given array is " << sum(arr, n);
 	return 0;
 }
 
-// This code is contributed by rathbhupendra
